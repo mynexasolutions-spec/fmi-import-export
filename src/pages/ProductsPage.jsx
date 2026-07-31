@@ -1,23 +1,37 @@
 import { Link } from 'react-router-dom';
 
+// Import local product images
+import tobaccoLeavesImg from '../../products/tobacco-leaves.webp';
+import filtersImg from '../../products/filters.webp';
+import cigarettesImg from '../../products/cigarettes.webp';
+import vapesImg from '../../products/vapes.webp';
+import grainsImg from '../../products/grains.webp';
+import hangersImg from '../../products/hangers.webp';
+import energyDrinksImg from '../../products/energy-drinks.webp';
+import coversImg from '../../product-images/covers.webp';
+import packagingItemsImg from '../../product-images/packaging-items.webp';
+import packedItemsImg from '../../product-images/packed-items.webp';
+import industrialScrapeImg from '../../product-images/industrial-scrape.png';
+import usedTyresImg from '../../product-images/used-tyres.png';
+
 const productsList = [
   {
-    image: 'https://images.unsplash.com/photo-1579237691880-77a83d297920?auto=format&fit=crop&w=800&q=80',
+    image: tobaccoLeavesImg,
     title: 'Tobacco Leaves',
     description: 'Premium quality raw tobacco leaves sourced globally.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1590240361324-406606869bba?auto=format&fit=crop&w=800&q=80',
+    image: filtersImg,
     title: 'Filters',
     description: 'High-grade filters for manufacturing and consumer use.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1525992994464-a6984eaf8b35?auto=format&fit=crop&w=800&q=80',
+    image: cigarettesImg,
     title: 'Cigarettes',
     description: 'A wide range of internationally recognized cigarette brands.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1534069818815-5853f937d10e?auto=format&fit=crop&w=800&q=80',
+    image: vapesImg,
     title: 'Vapes',
     description: 'Modern vaping devices and premium e-liquids.',
   },
@@ -27,7 +41,7 @@ const productsList = [
     description: 'Bulk supply of high-quality basmati, jasmine, and long-grain rice.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1586201375761-83865001e8ac?auto=format&fit=crop&w=800&q=80',
+    image: grainsImg,
     title: 'Grains',
     description: 'Nutritious grains including wheat, barley, and oats.',
   },
@@ -42,52 +56,52 @@ const productsList = [
     description: 'Farm-fresh vegetables handled with utmost care.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80',
+    image: packedItemsImg,
     title: 'Packed Food',
     description: 'A diverse selection of ready-to-eat and preserved packed food items.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1582735689309-84b256dbd5b6?auto=format&fit=crop&w=800&q=80',
+    image: hangersImg,
     title: 'Hangers',
     description: 'Durable laundry and wardrobe hangers in various materials.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?auto=format&fit=crop&w=800&q=80',
+    image: coversImg,
     title: 'Covers',
     description: 'Protective covers for clothing, furniture, and industrial use.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=800&q=80',
+    image: packagingItemsImg,
     title: 'Packaging Items',
     description: 'Cardboard boxes, bubble wrap, tapes, and bulk packaging materials.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80',
+    image: '/images/Scrap.webp',
     title: 'Metal Scrap',
     description: 'Recyclable metal scrap including iron, copper, and aluminum.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1510368142345-d85f818cc634?auto=format&fit=crop&w=800&q=80',
+    image: industrialScrapeImg,
     title: 'Industrial Scrap',
     description: 'Various raw and processed scrap materials for industrial recycling.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=800&q=80',
+    image: '/images/tyres.webp',
     title: 'New Tyres',
     description: 'High-quality brand new tyres for cars, trucks, and heavy machinery.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1601614995345-42fc7d189f72?auto=format&fit=crop&w=800&q=80',
+    image: usedTyresImg,
     title: 'Used Tyres',
     description: 'Tested and certified used tyres offering great value and performance.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=800&q=80',
+    image: '/images/drinks.webp',
     title: 'Soft Drinks',
     description: 'Wholesale supply of popular soft drink brands and beverages.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1550985543-f47f38aee80b?auto=format&fit=crop&w=800&q=80',
+    image: energyDrinksImg,
     title: 'Energy Drinks',
     description: 'A wide range of stimulating energy drinks for global distribution.',
   },
