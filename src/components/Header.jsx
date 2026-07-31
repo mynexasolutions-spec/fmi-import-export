@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,10 +25,10 @@ function Header() {
 
         <nav className={`navbar ${isMenuOpen ? 'open' : ''}`}>
           <ul className="nav-links">
-            <li><Link to="/" className="active" onClick={closeMenu}>Home</Link></li>
-            <li><Link to="/products" onClick={closeMenu}>Products</Link></li>
-            <li><Link to="/about" onClick={closeMenu}>About Us</Link></li>
-            <li><Link to="/contact" onClick={closeMenu}>Contact Us</Link></li>
+            <li><NavLink to="/" end onClick={closeMenu}>Home</NavLink></li>
+            <li><NavLink to="/products" onClick={closeMenu}>Products</NavLink></li>
+            <li><NavLink to="/about" onClick={closeMenu}>About Us</NavLink></li>
+            <li><NavLink to="/contact" onClick={closeMenu}>Contact Us</NavLink></li>
             <li className="mobile-only">
               <Link to="/contact" className="btn btn-primary" onClick={closeMenu} style={{ display: 'inline-block', marginTop: '10px' }}>
                 Get a Quote

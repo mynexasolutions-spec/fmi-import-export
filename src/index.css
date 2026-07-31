@@ -1150,11 +1150,25 @@ img {
     .stats-wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
+        gap: 24px;
+        padding: 0 10px;
     }
     .stat-item {
+        flex-direction: column;
         justify-content: center;
         text-align: center;
+        gap: 12px;
+    }
+    .stat-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1.25rem;
+    }
+    .stat-text h3 {
+        font-size: 1.5rem;
+    }
+    .stat-text p {
+        font-size: 0.8rem;
     }
     .features-list {
         grid-template-columns: 1fr;
