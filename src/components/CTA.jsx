@@ -22,10 +22,7 @@ function CTA() {
                   <a href="mailto:info@fmiinternationalfze.com" style={{ color: 'white' }}>info@fmiinternationalfze.com</a>
                 </div>
               </div>
-              <div className="contact-item">
-                <i className="fa-solid fa-location-dot"></i>
-                <span>Business Bay, Dubai, UAE</span>
-              </div>
+
             </div>
           </div>
           

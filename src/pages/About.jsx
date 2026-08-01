@@ -60,14 +60,6 @@ function About() {
               
               <ul className="about-list">
                 <li className="about-list-item">
-                  <strong>Issue Date</strong>
-                  <span>16/01/2025</span>
-                </li>
-                <li className="about-list-item">
-                  <strong>Expiry Date</strong>
-                  <span>15/01/2027</span>
-                </li>
-                <li className="about-list-item">
                   <strong>Registered Address</strong>
                   <span style={{ lineHeight: '1.6' }}>
                     Unit No. 1105-11, BCW, Eleventh Floor, Jafza One,<br />

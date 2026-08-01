@@ -30,18 +30,8 @@ function Footer() {
             <h4>Contact Us</h4>
             <ul style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
               <li>
-                <a href="https://wa.me/971589775688" target="_blank" rel="noopener noreferrer">
-                  <i className="fa-brands fa-whatsapp"></i> +971 58 977 5688
-                </a>
-              </li>
-              <li>
-                <a href="mailto:Md@fmiinternationalfze.com">
-                  <i className="fa-solid fa-envelope"></i> Md@fmiinternationalfze.com
-                </a>
-              </li>
-              <li>
-                <a href="mailto:sales@fmiinternationalfze.com">
-                  <i className="fa-solid fa-envelope"></i> sales@fmiinternationalfze.com
+                <a href="tel:+97143957077">
+                  <i className="fa-solid fa-phone"></i> +971 4 395 7077
                 </a>
               </li>
               <li>
@@ -49,9 +39,7 @@ function Footer() {
                   <i className="fa-solid fa-envelope"></i> info@fmiinternationalfze.com
                 </a>
               </li>
-              <li>
-                <i className="fa-solid fa-location-dot"></i> Business Bay, Dubai, UAE
-              </li>
+
             </ul>
           </div>
         </div>
