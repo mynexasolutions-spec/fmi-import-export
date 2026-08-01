@@ -11,16 +11,12 @@ function CTA() {
             
             <div className="cta-contact-details">
               <div className="contact-item">
-                <i className="fa-brands fa-whatsapp"></i>
-                <a href="https://wa.me/971589775688" style={{ color: 'white' }}>+971 58 977 5688</a>
+                <i className="fa-solid fa-phone"></i>
+                <a href="tel:+97143957077" style={{ color: 'white' }}>+971 4 395 7077</a>
               </div>
               <div className="contact-item">
                 <i className="fa-solid fa-envelope"></i>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                  <a href="mailto:Md@fmiinternationalfze.com" style={{ color: 'white' }}>Md@fmiinternationalfze.com</a>
-                  <a href="mailto:sales@fmiinternationalfze.com" style={{ color: 'white' }}>sales@fmiinternationalfze.com</a>
-                  <a href="mailto:info@fmiinternationalfze.com" style={{ color: 'white' }}>info@fmiinternationalfze.com</a>
-                </div>
+                <a href="mailto:info@fmiinternationalfze.com" style={{ color: 'white' }}>info@fmiinternationalfze.com</a>
               </div>
 
             </div>
