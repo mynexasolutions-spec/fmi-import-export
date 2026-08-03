@@ -11,7 +11,6 @@ import energyDrinksImg from '../../products/energy-drinks.webp';
 import coversImg from '../../product-images/covers.webp';
 import packagingItemsImg from '../../product-images/packaging-items.webp';
 import packedItemsImg from '../../product-images/packed-items.webp';
-import industrialScrapeImg from '../../product-images/industrial-scrape.png';
 import usedTyresImg from '../../product-images/used-tyres.png';
 
 const productsList = [
@@ -74,16 +73,6 @@ const productsList = [
     image: packagingItemsImg,
     title: 'Packaging Items',
     description: 'Cardboard boxes, bubble wrap, tapes, and bulk packaging materials.',
-  },
-  {
-    image: '/images/Scrap.webp',
-    title: 'Metal Scrap',
-    description: 'Recyclable metal scrap including iron, copper, and aluminum.',
-  },
-  {
-    image: industrialScrapeImg,
-    title: 'Industrial Scrap',
-    description: 'Various raw and processed scrap materials for industrial recycling.',
   },
   {
     image: '/images/tyres.webp',

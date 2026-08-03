@@ -17,11 +17,6 @@ const products = [
     description: 'Hangers, covers, packaging items and more.',
   },
   {
-    image: '/images/Scrap.webp',
-    title: 'Scrap',
-    description: 'All kinds of metal and industrial scrap materials.',
-  },
-  {
     image: '/images/tyres.webp',
     title: 'Tyres (Old & New)',
     description: 'High-quality new and used tyres for all vehicle types.',
